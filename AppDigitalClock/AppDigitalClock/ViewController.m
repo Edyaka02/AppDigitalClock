@@ -65,13 +65,13 @@
     if(self.backgroundColorSeg.selectedSegmentIndex == 0){
         self.view.backgroundColor = [UIColor whiteColor];
         
-    } else if(self.clockColorSeg.selectedSegmentIndex == 1){
+    } else if(self.backgroundColorSeg.selectedSegmentIndex == 1){
         self.view.backgroundColor = [UIColor blackColor];
         
-    } else if(self.clockColorSeg.selectedSegmentIndex == 2){
+    } else if(self.backgroundColorSeg.selectedSegmentIndex == 2){
         self.view.backgroundColor = [UIColor blueColor];
         
-    } else if(self.clockColorSeg.selectedSegmentIndex == 3){
+    } else if(self.backgroundColorSeg.selectedSegmentIndex == 3){
         self.view.backgroundColor = [UIColor greenColor];
         
     }
