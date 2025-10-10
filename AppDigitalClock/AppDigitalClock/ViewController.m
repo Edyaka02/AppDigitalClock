@@ -72,7 +72,7 @@
         self.view.backgroundColor = [UIColor blueColor];
         
     } else if(self.backgroundColorSeg.selectedSegmentIndex == 3){
-        self.view.backgroundColor = [UIColor greenColor];
+        self.view.backgroundColor = [UIColor yellowColor];
         
     }
     
